@@ -87,10 +87,10 @@ function delfunc(){
       
       function myStartFunction() {
       
-        this.style.backgroundColor = "orange";
+        this.style.backgroundColor = "blue";
       }
       
       function myEndFunction() {
        
-        this.style.backgroundColor = "skyblue";
+        this.style.backgroundColor = "brown";
       }
