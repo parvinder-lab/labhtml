@@ -41,22 +41,22 @@
     #do{
         animation-name:inder;
         animation-duration: 2s;
-        animation-timing-function:cubic-bezier(0.23, 1, 0.320, 1);
+        animation-timing-function:cubic-bezier(0.755, 0.05, 0.855, 0.06);
 
     }
     @keyframes inder {
          0%{
-            margin:300px;
+            margin:150px;
             color:chartreuse;
            
         }
         50%{
-            margin:150px;
+            margin:100px;
            color:crimson;
         }
         100%{
             margin:50px;
-            color:darkgoldenrod;
+            color:aqua;
         }
     }
     body{
@@ -158,14 +158,14 @@
     </style>
 </head>
 <body>
-    <header>
+    <header id = "pp" onclick="myFunction()">
     
-        <div class="grid-item">Get</div>
-        <div class="grid-item1">Shit</div>
-        <div class="grid-item2">Done</div>
+        <div class="grid-item">TO</div>
+        <div class="grid-item1">DO</div>
+        <div class="grid-item2">LIST</div>
     
     </header>
-    <main  id = "qq" onclick="myFunction()">
+    <main  id = "qq" >
             
                
             <label for="todo-label" id = "do">Add a To-Do</label>

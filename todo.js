@@ -75,11 +75,11 @@ function delfunc(){
        
       }
 
-      var x = document.getElementById("qq");
+      var x = document.getElementById("pp");
       
      
       function myFunction() { 
-        x.style.animation = "inder 4s 2";    
+        x.style.animation = "inder 4s";    
       }
       x.addEventListener("animationstart", myStartFunction);
       
