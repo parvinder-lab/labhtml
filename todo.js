@@ -69,9 +69,12 @@ function addNewToDo(event) {
 
 run();
 
-function delfunc(){
-        var x = document.getElementById("add");
-        x.remove(x.checked);
+function delfunc(htg){
+    var d = htg.currentTarget.parentNode.querySelector("Input").id;
+    localStorage.removeItem(d);
+    const item = htg.currentTarget.parentNode;
+    const list = item.parentNode;
+    list.removeChild(item);
        
       }
 
